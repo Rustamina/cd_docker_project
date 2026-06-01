@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t Rustam/cd_docker_project:latest .
+        run: docker build -t 89179327843/cd_docker_project:latest .
 
       - name: Push Docker image to Docker Hub
-        run: docker push Rustam/cd_docker_project:latest
+        run: docker push 89179327843/cd_docker_project:latest
